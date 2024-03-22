@@ -1,4 +1,4 @@
-#Arthmetic operation 
+#ARTHMETIC OPERATION
 #include +, -, *, ? %
 
 # Difference between / and // 
@@ -18,3 +18,11 @@ print(3**3)
 #Multiple operators it follows the BODMAS rule automatic
 
 print(3 + 2 * 6 // 3)
+
+#Priority of the operators
+                #   ()              P
+#   R - L       #   **              E
+#   L - R       #   *, /, //, %     M 
+#   L - R       #   +, -            A S
+    
+     
