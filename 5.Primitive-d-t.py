@@ -51,3 +51,7 @@ print(name_1 + name_2)
 #Printing String with underscores place \ behind it
 
 print("My name\'s is \"Samwel\"")
+
+# print("my name's is "Samwel"") this gives you error
+
+print(type(name_2))

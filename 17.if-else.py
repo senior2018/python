@@ -50,13 +50,13 @@ height = 15
 
 if(height <= 10):
     print('You are tall enough')
-print('Yes hello')      #this code will be executed because the if is false
+print('Yes hello')      #this code will be executed weather the if statement is true or false
 
 
 
 #IF statement can also be written as
 if height == 13:
     print('The height is good')
-    print('Go and jump')
+    print('Go and jump') #this code will be executed only if if statement is true
 else:
     print('No enough height')

@@ -60,29 +60,31 @@ else
 
 
 
-#If-else condition
-#in python insted of using else-if we use ELIF
+# If-else condition
+# in python insted of using else-if we use ELIF
 
-# print('else if beggin')
+print('else if beggin')
 
-# number = int(input('Enter either 1, 2, 3, 4 or 5\n'))
+number = int(input('Enter either 1, 2, 3, 4 or 5\n'))
 
-# if number == 1:
-#     print('one')
-# elif number == 2: #Only this will be executed
-#     print('Two')
-# elif number == 3:
-#     print('Three')
-# elif number == 4:
-#     print('Four')
-# elif number == 5:
-#     print('Five') 
-# elif number == 2:
-#     print('Two')
-# else:
-#     print('Out of bount')  
+# If you enter 2 the first elif will be prented only
+
+if number == 1:
+    print('one')
+elif number == 2: #Only this will be executed
+    print('Two')
+elif number == 3:
+    print('Three')
+elif number == 4:
+    print('Four')
+elif number == 5:
+    print('Five') 
+elif number == 2:
+    print('Two')
+else:
+    print('Out of bount')  
     
-# print('Else if ended')
+print('Else if ended')
 
 #in EF - ELIF after the any condition is true is exit at the point
 
@@ -90,23 +92,25 @@ else
 #It will check the whole condition regaldless the true condition is found
 #Example
 
-print('else if beggin')
+# print('else if beggin')
 
-number = int(input('Enter either 1, 2, 3, 4 or 5\n'))
+# number = int(input('Enter either 1, 2, 3, 4 or 5\n'))
 
-if number == 1:
-    print('one')
-if number == 2:
-    print('Two')  #This will be axacuted
-if number == 3:
-    print('Three')
-if number == 4:
-    print('Four')
-if number == 5:
-    print('Five') 
-if number == 2:
-    print('Two') #And this also
-else:
-    print('Out of bount')  
+# if you enter 2, both 2 if option will be printed
+
+# if number == 1:
+#     print('one')
+# if number == 2:
+#     print('Two')  #This will be axacuted
+# if number == 3:
+#     print('Three')
+# if number == 4:
+#     print('Four')
+# if number == 5:
+#     print('Five') 
+# if number == 2:
+#     print('Two') #And this also
+# else:
+#     print('Out of bount')  
     
-print('Else if ended')
+# print('Else if ended')

@@ -31,7 +31,7 @@ print(id(b))
 x = 3
 y = '3'
 
-print(x is y)
+print(x is y) 
 #return false because 3 and '3 are not the same data type 
 #then two different object have been created with different location
 
