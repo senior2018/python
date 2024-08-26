@@ -39,6 +39,11 @@ details = [1, 'John', 2.34]
 #         |   |   |    |    |
 marks = [20, 40, 80, 55.5, 23]
 
+#but also index can be as follows
+#         -5  -4  -3   -2   -1
+#         |   |   |    |    |
+marks = [20, 40, 80, 55.5, 23]
+
 #Printing the whole list
 
 print(marks)   # output is [20, 40, 80, 55.5, 23]
@@ -115,6 +120,8 @@ number = [2, 87, -93, 6, 24, -6]
 print(max(number)) #output will be 87
 
 print(min(number)) #output will be -93
+
+
 
 # ADDING ONE ELEMENT AT A TIME
 
