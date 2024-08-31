@@ -7,7 +7,7 @@ union():
         - Its corespondent sysmbol |
         
 update():
-        - 	Update the set with the union of this set and others
+        - Update the set with the union of this set and others
         
         - Its corespondent sysmbol |=
 
@@ -84,7 +84,7 @@ set1 = {'Samwel', 'Paul', 'Juma', 'John'}
 set2 = {'Aman', 'Juma', 'Nely', 'Martha'}
 
 '''UNION (|)'''
-# print(set1.union(set2))
+# print(set1.union(set2)) # Combine set1 and set2
 
 # print(set2.union(set1))
 
@@ -92,15 +92,15 @@ set2 = {'Aman', 'Juma', 'Nely', 'Martha'}
 
 # # Union set with other element
 
-# print(set1.union(("Maah", 'Joshua')))
+# print(set1.union(("Maah", 'Joshua'))) # Combine set1 with set given
 
 
 
-'''Update operation'''
+'''Update operation ( |= )'''
 
 # set1.update(set2) # Takes all the set 2 element and add them to set 1
 
-# Can use also the symbol |=
+# # Can use also the symbol |=
 # set1 |= set2
 
 # print(set1)
@@ -117,7 +117,7 @@ set2 = {'Aman', 'Juma', 'Nely', 'Martha'}
 
 ''' INTERSECTION OPERATOR (&)'''
 
-# print(set1.intersection(set2))
+# print(set1.intersection(set2)) # it will return {'Juma}
 
 # print(set1 & set2)
 
@@ -134,13 +134,13 @@ seta = {'Ram', 'Shyam', 'Jenny'}
 setb = {'Jenny', 'Jiha', 'Aksan'}
 setc = {'Ankuh', 'Pradeep', 'Ram'}
 
-# print(seta.difference(setb)) 
-# # Gives the item that are in seta but not in setb
+print(seta.difference(setb)) # Gives the item that are in seta but not in setb
+                             # output is {'Shyam', 'Ram'} 
 
-# Using an operator
+# # Using an operator
 # print(seta - setb)   
 
-# print(seta.difference(("tom", "groves"))) 
+# print(seta.difference(("tom", "groves"))) # Return item that are in seta and not in given set
 
 # seta.difference_update(setb) # Remove the intersection element from seta
 
@@ -164,12 +164,13 @@ combine all the element of seta and setb except the intersection element and set
 
 '''
 DISJOINT & ISSUBSET
+
+
+isdisjoint check in either element is in both set
 '''
 set_a = {1, 3, 4, 5, 6}
 set_b = {2, 7, 8, 9, 10}
 set_c = {3, 4, 5, 6}
-
-# # isdisjoint check in either element is in both set
 
 # print(set_a.isdisjoint(set_b)) # it will return True
 
@@ -182,10 +183,13 @@ set_c = {3, 4, 5, 6}
 
 
 
+'''
 # # issubset
 
-# print(set_a.issubset(set_b))    # Check if all set_a element are in set_b
-#                                 # Return False
+Check if all set_a element are in set_b
+'''
+
+# print(set_a.issubset(set_b))    # Return False
 
 # print(set_c.issubset(set_a))    # it will return True
 
@@ -197,9 +201,12 @@ set_c = {3, 4, 5, 6}
 
 
 
-# #issuperset
-# print(set_a.issuperset(set_c))  #  Check if all set_a contain all element of set_b 
-#                                 # it will return True
+'''
+issuperset
+
+from issubset deffinition, it Check if all set_b contain all element of set_a
+'''
+# print(set_a.issuperset(set_c))  #  it will return True 
 
 # print(set_c.issuperset(set_a)) # it will return Farse
 
