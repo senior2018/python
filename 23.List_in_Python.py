@@ -1,4 +1,4 @@
-# LIST is a collection of of multiple data types
+# LIST is a collection of multiple data types
 
 #Example:
 # Collection of collection of multimple simmilar data type

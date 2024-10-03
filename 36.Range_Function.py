@@ -50,3 +50,20 @@ total = 0
 for i in range(0,101):
     total += i
 print(total)
+
+
+
+
+
+''' 
+Simple task 2
+
+Find the sum of all even number from 0 to 100
+
+'''
+
+even = 0
+
+for i in range(2, 101):
+    even += i
+print(even)

@@ -22,7 +22,7 @@ l = [2, 4, 20, -6, -4, 7, 9, 14, 5, -2]
 e = random.choice(l)
 # print(e)
 
-# Printing a random arrandement of item in a list 
+# Printing a random arrangement of item in a list 
 l = [2, 4, 20, -6, -4, 7, 9, 14, 5, -2]
 random.shuffle(l)
 print(l)

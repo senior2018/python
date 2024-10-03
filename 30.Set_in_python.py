@@ -1,6 +1,6 @@
 ''''
 SET:
-    - are used to store multiple multiple items in a single variables
+    - are used to store multiple items in a single variables
     
     - Is a collection which is unordered, unchangable and unindexed
     
