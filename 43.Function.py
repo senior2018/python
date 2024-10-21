@@ -25,18 +25,8 @@ greet()
 greet()
 greet()
 
+""" 
+For more practice of function 
 
-
-for i in range(1, 12):
-    if i == 2:
-        for j in range(1, 3):
-            print(f'i2 {i}')
-            continue
-    if i == 5 or i == 7:
-        print(f'i3 {i}')
-        continue 
-    if i == 11:
-        print(f'i4 {i}')
-        continue
-    print(f'i1 {i}')
-    
+visit https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json
+"""
