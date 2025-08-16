@@ -5,11 +5,19 @@
 
 #when / is used it return a float number
 
-print(4/2)
+print(72/25)
+# Return 2.88
 
-#when // is used it return an int number it round it to downward
+print(-72/25)
+# Return -2.88
 
-print(4//2)
+#when // is used it return an int number it round it to downward for positive number and upward for negative number
+
+print(72//25) 
+# return 2 
+
+print(-72//25) 
+# return -3 
 
 # power is obtained by ** 
 
