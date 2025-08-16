@@ -7,7 +7,7 @@
 
 print(4/2)
 
-#when // is used it return an int number
+#when // is used it return an int number it round it to downward
 
 print(4//2)
 
